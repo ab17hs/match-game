@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Match Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">
+</head>
+<body>
+    <h1>Welcome to the Match Game!</h1>
+    <div id="game-board"></div>
+    <p id="win-message" style="display:none;">🎉 You won! 🎉</p>
+    <button id="restart">Restart Game</button>
+    <script src="{{ url_for('static', filename='script.js') }}?v=2"></script>
+</body>
+</html>
